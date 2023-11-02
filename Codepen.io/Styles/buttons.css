@@ -1,0 +1,75 @@
+
+/* Botones navegación */
+
+.navigation-wrapper > .create-len-login-signup-wrapper > .btn {
+    text-align: center;
+    background-color: hsl(235, 11%, 22%);
+    overflow: hidden;
+    padding: 16px 28px;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+.navigation-wrapper > .create-len-login-signup-wrapper > .btn i {
+    color:rgb(4, 190, 4) ;
+}
+
+
+.navigation-wrapper > .create-len-login-signup-wrapper > .btn:hover {
+    background-color:  hsl(236, 8%, 43%);
+}
+
+
+.navigation-wrapper > .create-len-login-signup-wrapper > .btn {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+    border: none;
+    cursor:pointer;
+}
+
+
+
+
+/* Botones cuerpo */
+
+.central-section > .left-column >.contenido > .wrapper-botones-texto{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.central-section > .left-column >.contenido > .wrapper-botones-texto > .Signup-free{
+    color: rgb(0, 0, 0);
+    background-color: rgb(83, 201, 108);
+    font-size: 2em;
+    font-weight: 550;
+    padding: 20px;
+    border: none;
+    cursor:pointer;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 13px -1px rgba(0,0,0,0.6);
+    transition: 1s;
+}
+
+.central-section > .left-column >.contenido > .wrapper-botones-texto > .Signup-free:hover{
+    background-color: rgb(175, 247, 191) ;
+}
+
+.central-section > .left-column >.contenido > .wrapper-botones-texto > .Learn-More {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 20px;
+    border: none;
+    cursor:pointer;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.central-section > .left-column >.contenido > .wrapper-botones-texto > .Learn-More:hover {
+    background-color: rgb(94, 91, 91);
+}
